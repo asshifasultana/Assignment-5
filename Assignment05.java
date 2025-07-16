@@ -130,7 +130,6 @@ public class Assignment05 {
         frame.add(profileLabel);
         frame.add(fileLabel);
 
-        //ki korsi janina, jani shudhu ctrl c + ctrl v
         final String[] selectedFilePath = {""};
         profileButton.addActionListener(e -> {
             JFileChooser fileChooser = new JFileChooser();
